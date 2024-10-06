@@ -1,4 +1,4 @@
-# Pickle-Ball-Court-Reserved-App 🎾🏓
+# Pickleball-Court-Reservation 🎾🏓
 
 ## Introduction
 The Pickleball Court Reservation App is a web application designed to help users find and reserve pickleball courts in public parks. With the rising popularity of pickleball, many parks lack dedicated courts, and players often have to rely on shared tennis courts. This app provides real-time availability updates and allows users to reserve courts remotely, helping players avoid trips to the park to check court availability in person.
