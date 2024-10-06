@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="module" src="https://unpkg.com/@googlemaps/extended-component-library@0.3"></script>
+    <script src="pickleball_timetable.js"></script>
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --white: #ffffff;
+            --light-green: #61b610;
+            --white: #ffffff;
+            --black: #000;
+        }
+        
+        body {
+            background-color: var(--white);
+            text-align: center;
+            padding: 10px;
+        }
+        h1 {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            font-size: 1.3rem;
+            margin: 1.2rem 0;
+        }
+
+        .player_court {
+            background-color: var(--light-green);
+            padding: auto;
+            margin: auto;
+            width: 300px;
+            border-radius: 400px;
+            flex-wrap: wrap;
+            align-items: center;
+            width: 33.33%;
+            float: left;
+            padding: 15px;
+        }
+        @media (max-width: 768px) {
+            .courts {
+                width: 100%;
+            }
+        }
+        button {
+            cursor: pointer;
+            color: #0a0a23;
+            background-color: var(--light-green);
+            background-image: var(--light-green);
+            border: 35px solid var(--light-green);
+        }
+    </style>
+    <title>Pickleball Court Timetbale</title>
+</head>
+<body>
+    <h1>Pickleball Court Timetable</h1>
+    <h2>Choose the court that you want to play</h2>
+        <div class="player_court">
+            <button id="button1">Court 1</h3>
+        </div>
+        <div class="player_court">
+            <button id="button2">Court 2</h3>
+        </div>
+        <div class="player_court">
+            <button id="button3">Court 3</h3>
+        </div>
+        <div class="player_court">
+            <button id="button4">Court 4</h3>
+        </div>
+        <div class="player_court">
+            <button id="button5">Court 5</h3>
+        </div>
+        <div class="player_court">
+            <button id="button6">Court 6</h3>
+        </div>
+
+</body>
+</html>
