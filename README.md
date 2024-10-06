@@ -11,6 +11,6 @@ The Pickleball Court Reservation App is a web application designed to help users
 - Firebase Backend: Stores reservation data and court availability, ensuring real-time updates across all devices.
 
 ## Technologies
-Frontend: HTML, CSS, JavaScript
-Backend: Firebase for real-time data storage and push notifications
-API Integration: Google Maps API for displaying park locations and court availability
+- Frontend: HTML, CSS, JavaScript
+- Backend: Firebase for real-time data storage and push notifications
+- API Integration: Google Maps API for displaying park locations and court availability
